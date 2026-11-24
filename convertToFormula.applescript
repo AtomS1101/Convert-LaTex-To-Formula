@@ -16,7 +16,7 @@ tell application "System Events"
 	-- Paste the selected text
 	set the clipboard to selectedText
 	keystroke "v" using command down
-  delay 0.1
+	delay 0.1
 	
 	-- Insert the equation
 	key code 36 using command down
